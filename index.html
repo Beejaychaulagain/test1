@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bijay Chaulagain - Web Developer</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJf1mM7y2wI9hS0D2M6n0kNc8l6b8z7jpiDZw0zUw8h64jZVV38tu7Nb4QjY" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome for Social Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            background-image: url('https://via.placeholder.com/1500x500?text=Your+Background+Image'); /* Add your own image here */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.5rem;
+        }
+
+        header .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            padding: 12px 30px;
+            font-size: 1.2rem;
+        }
+
+        header .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+
+        .section-title {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-body {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .card-title {
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+
+        .card-text {
+            color: #777;
+        }
+
+        .progress {
+            height: 12px;
+            border-radius: 6px;
+        }
+
+        .contact-info {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .contact-info a {
+            color: #343a40;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .cta-section {
+            background-color: #007bff;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 2rem;
+        }
+
+        .cta-section .btn {
+            font-size: 1.2rem;
+            padding: 12px 30px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #f8f9fa;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons a {
+            color: #f8f9fa;
+            font-size: 1.5rem;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+        }
+
+        .client-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .progress-bar {
+            border-radius: 6px;
+        }
+
+        .carousel-item p {
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #555;
+        }
+
+        .carousel-item small {
+            color: #007bff;
+        }
+        
+        /* Custom styles for portfolio images */
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        .portfolio-item {
+            margin-bottom: 30px;
+        }
+        
+        /* Django Projects */
+        .django-projects img {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section with Hero Image -->
+    <header>
+        <h1>Bijay Chaulagain</h1>
+        <p>Certified & Experienced Web Developer</p>
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+    </header>
+
+    <!-- About Section -->
+    <section class="about container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/300" class="img-fluid rounded-circle" alt="Bijay Chaulagain">
+            </div>
+            <div class="col-md-8">
+                <p class="lead">I am a certified, experienced, well-trained, and respected web developer with a passion for creating beautiful, functional websites and applications. My focus is on delivering high-quality projects that are user-friendly, responsive, and visually appealing.</p>
+                <p>Over the years, I have gained experience working with a variety of clients, delivering scalable and maintainable websites and web applications. I am highly skilled in both front-end and back-end technologies, with a strong background in HTML, CSS, JavaScript, React, and Python/Django.</p>
+                <p>Whether you're looking to build a personal website, a business portal, or a complex web application, I can help bring your ideas to life!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills container">
+        <h2 class="section-title">Skills</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h5>HTML & CSS</h5>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-primary" style="width: 90%;" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h5>JavaScript</h5>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success" style="width: 85%;" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h5>React</h5>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-warning" style="width: 80%;" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h5>Python & Django</h5>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-danger" style="width: 75%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Django Projects Section -->
+    <section class="django-projects container">
+        <h2 class="section-title">Django Projects</h2>
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <img src="https://via.placeholder.com/350x200" alt="Django Project 1" class="img-fluid">
+                <h5>Project 1: E-commerce Site</h5>
+                <p>Developed a full-fledged e-commerce platform using Django, integrating payment gateways, inventory management, and user authentication.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <img src="https://via.placeholder.com/350x200" alt="Django Project 2" class="img-fluid">
+                <h5>Project 2: Blog Platform</h5>
+                <p>This Django-based blog platform allows users to create, comment, and share posts, with robust backend features like admin dashboards and content management.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <img src="https://via.placeholder.com/350x200" alt="Django Project 3" class="img-fluid">
+                <h5>Project 3: Job Portal</h5>
+                <p>A job portal application built with Django where job seekers can apply for jobs, upload resumes, and get notifications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services container">
+        <h2 class="section-title">What I Offer</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Front-End Development</h5>
+                        <p class="card-text">I build visually appealing and responsive websites using HTML, CSS, and JavaScript to ensure a seamless experience on any device.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Service 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Back-End Development</h5>
+                        <p class="card-text">Using Python with Django, I develop robust and scalable back-end systems to ensure your website or app performs flawlessly.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Service 3">
+                    <div class="card-body">
+                        <h5 class="card-title">React Development</h5>
+                        <p class="card-text">React enables me to build interactive UIs and web applications that provide a smooth user experience and fast performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials container">
+        <h2 class="section-title">What Clients Say</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex align-items-center">
+                        <img src="https://via.placeholder.com/50" class="client-avatar" alt="Client 1">
+                        <div>
+                            <p>"Bijay is an exceptional developer. He made my website exactly how I envisioned it!"</p>
+                            <small>- Client 1</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex align-items-center">
+                        <img src="https://via.placeholder.com/50" class="client-avatar" alt="Client 2">
+                        <div>
+                            <p>"I loved working with Bijay. He delivered the project on time and was always very communicative."</p>
+                            <small>- Client 2</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex align-items-center">
+                        <img src="https://via.placeholder.com/50" class="client-avatar" alt="Client 3">
+                        <div>
+                            <p>"A pleasure to work with! Bijay's work was top-notch and exceeded all my expectations."</p>
+                            <small>- Client 3</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2>Ready to Start Your Project?</h2>
+        <a href="#contact" class="btn btn-light">Let's Talk</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> <a href="tel:+9779762876646">9762876646</a></p>
+            <p><strong>Email:</strong> <a href="mailto:14.bijaychaulagain2@gmail.com">14.bijaychaulagain2@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 Bijay Chaulagain. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://facebook.com/yourusername" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybVyA3xUQmXq8PzpMscyV+3Ftnj19Rqu7Wg+5V6r52gD+P0p/2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0nFZk93Nhj0v5Ym1z58N5cFhIyy64hdn5esP+fBiN8FCq7+J" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
